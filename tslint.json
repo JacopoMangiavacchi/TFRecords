@@ -1,3 +1,17 @@
 {
-    "extends": ["tslint:recommended", "tslint-config-prettier"]
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "object-literal-sort-keys": false,
+        "no-console": false,
+        "no-shadowed-variable": false,
+        "ordered-imports": false,
+        "no-string-literal": false,
+        "no-bitwise": false,
+        "function-constructor": false
+    },
+    "rulesDirectory": []
 }

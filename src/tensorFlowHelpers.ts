@@ -22,6 +22,7 @@
 
 import Int64 from "node-int64";
 import reverse from "buffer-reverse";
+import Guard from "./guard";
 
 /**
  * @buffer - Buffer input

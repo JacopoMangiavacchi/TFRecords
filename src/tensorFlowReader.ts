@@ -1,3 +1,4 @@
+import Guard from "./guard";
 import { FeatureType } from "./tensorFlowBuilder";
 import { crc32c, maskCrc, readInt64, textDecode } from "./tensorFlowHelpers";
 import { TFRecordsImageMessage } from "./tensorFlowRecordsProtoBuf_pb";

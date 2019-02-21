@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "TensorFlow record (.tfrecord) API for Node.JS and Browsers",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",  "scripts": {
+  "dependencies": {
+    "buffer-reverse": "^1.0.1",
+    "crypto-js": "^3.1.9-1",
+    "google-protobuf": "^3.6.1",
+    "node-int64": "^0.4.0",
+    "shortid": "^2.2.14"
+  },
+  "types": "lib/index.d.ts",
+  "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
@@ -18,7 +26,10 @@
     "type": "git",
     "url": "git+https://github.com/JacopoMangiavacchi/TFRecords.git"
   },
-  "keywords": ["TFRecords", "TensorFlow"],
+  "keywords": [
+    "TFRecords",
+    "TensorFlow"
+  ],
   "author": "Jacopo Mangiavacchi",
   "license": "MIT",
   "bugs": {
@@ -26,6 +37,7 @@
   },
   "homepage": "https://github.com/JacopoMangiavacchi/TFRecords#readme",
   "devDependencies": {
+    "@types/node": "10.12.7",
     "@types/jest": "^24.0.6",
     "jest": "^24.1.0",
     "prettier": "^1.16.4",
