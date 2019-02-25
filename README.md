@@ -1,4 +1,4 @@
-# TFRecords (.tfrecord) file format Builder and Reader
+# TFRecords (.tfrecord) file format Builder and Reader for Browser and Node.js
 
 [![Build Status](https://dev.azure.com/edgeWonders/TFRecords/_apis/build/status/JacopoMangiavacchi.TFRecords)](https://dev.azure.com/edgeWonders/TFRecords/_build/results?buildId=latest)
 
