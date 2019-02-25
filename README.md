@@ -1,5 +1,8 @@
 # TFRecords (.tfrecord) file format Builder and Reader
 
+[![Build Status](https://dev.azure.com/edgeWonders/TFRecords/_apis/build/status/JacopoMangiavacchi.TFRecords)](https://dev.azure.com/edgeWonders/TFRecords/_build/results?buildId=latest)
+
+
 The TFRecords format is briefly documented
 [here](https://www.tensorflow.org/api_guides/python/python_io#tfrecords_format_details),
 and described as the recommended format for feeding data into TenosorFlow
