@@ -1,5 +1,5 @@
 {
-  "name": "TFRecords",
+  "name": "tfrecords",
   "version": "1.0.0",
   "description": "TensorFlow record (.tfrecord) API for Node.JS and Browsers",
   "main": "lib/index.js",
