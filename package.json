@@ -1,6 +1,6 @@
 {
   "name": "tfrecords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TensorFlow record (.tfrecord) API for Node.JS and Browsers",
   "main": "src/index.js",
   "dependencies": {
