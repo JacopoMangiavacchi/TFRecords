@@ -1,5 +1,5 @@
 {
-  "name": "tfrecords",
+  "name": "@jacopomangiavacchi/tfrecords",
   "version": "1.0.1",
   "description": "TensorFlow record (.tfrecord) API for Node.JS and Browsers",
   "main": "src/index.js",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JacopoMangiavacchi/TFRecords.git"
+    "url": "git://github.com/JacopoMangiavacchi/TFRecords.git"
   },
   "keywords": [
     "TFRecords",
@@ -46,7 +46,9 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.3.3"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "src/**/*"
   ]
