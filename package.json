@@ -10,7 +10,7 @@
         "node-int64": "^0.4.0",
         "shortid": "^2.2.16"
     },
-    "types": "src/index.d.ts",
+    "types": "dist/index.d.ts",
     "scripts": {
         "test": "jest --config jestconfig.json",
         "build": "tsc --project tsconfig.build.json",

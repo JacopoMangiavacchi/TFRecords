@@ -1,3 +1,2 @@
-export * from "./tensorFlowBuilder";
-export * from "./tensorFlowHelpers";
-export * from "./tensorFlowReader";
+export { FeatureType, TFRecordsBuilder } from "./tensorFlowBuilder";
+export { TFRecordsReader } from "./tensorFlowReader";
