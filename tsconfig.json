@@ -1,7 +1,11 @@
 {
-    "extends": "@tsconfig/recommended/tsconfig.json",
     "compilerOptions": {
+        "target": "ES2015",
+        "module": "commonjs",
         "strict": false,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
         "declaration": true,
         "outDir": "dist"
     },

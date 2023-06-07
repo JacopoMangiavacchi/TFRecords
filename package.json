@@ -13,7 +13,7 @@
     "types": "src/index.d.ts",
     "scripts": {
         "test": "jest --config jestconfig.json",
-        "build": "tsc",
+        "build": "tsc --project tsconfig.build.json",
         "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
         "lint": "tslint -p tsconfig.json",
         "prepare": "npm run build",
@@ -34,7 +34,6 @@
     },
     "homepage": "https://github.com/JacopoMangiavacchi/TFRecords#readme",
     "devDependencies": {
-        "@tsconfig/recommended": "^1.0.2",
         "@types/jest": "^24.0.6",
         "@types/node": "10.12.7",
         "jest": "^24.1.0",
