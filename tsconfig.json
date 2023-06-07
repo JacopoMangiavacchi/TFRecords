@@ -1,26 +1,6 @@
 {
-  "compilerOptions": {
-      "target": "es6",
-      "allowJs": false,
-      "skipLibCheck": false,
-      "esModuleInterop": true,
-      "allowSyntheticDefaultImports": true,
-      "strict": false,
-      "forceConsistentCasingInFileNames": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "noEmit": true,
-      "jsx": "preserve",
-      "experimentalDecorators": true,
-      "lib": [
-          "es2015",
-          "dom"
-      ]
-  },
-  "include": [
-      "src",
-      ".storybook"
-  ]
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "strict": false
+    }
 }
