@@ -1,5 +1,5 @@
 node_modules
 /lib
-package-lock.json
 src/*.js
 src/*.js.map
+dist/*
