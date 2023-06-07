@@ -1,6 +1,6 @@
 node_modules
 /lib
 src/*.js
-!src/tensorFlowRecordsProtoBuf_pb.js
+src/*.d.ts
 src/*.js.map
-dist/*
+!src/tensorFlowRecordsProtoBuf_pb.js
