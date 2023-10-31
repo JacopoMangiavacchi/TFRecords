@@ -1,55 +1,46 @@
 {
-  "name": "@jacopomangiavacchi/tfrecords",
-  "version": "1.0.1",
-  "description": "TensorFlow record (.tfrecord) API for Node.JS and Browsers",
-  "main": "src/index.js",
-  "dependencies": {
-    "buffer-reverse": "^1.0.1",
-    "crypto-js": "^3.1.9-1",
-    "google-protobuf": "^3.6.1",
-    "node-int64": "^0.4.0",
-    "shortid": "^2.2.14"
-  },
-  "types": "src/index.d.ts",
-  "scripts": {
-    "test": "jest --config jestconfig.json",
-    "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/JacopoMangiavacchi/TFRecords.git"
-  },
-  "keywords": [
-    "TFRecords",
-    "TensorFlow"
-  ],
-  "author": "Jacopo Mangiavacchi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JacopoMangiavacchi/TFRecords/issues"
-  },
-  "homepage": "https://github.com/JacopoMangiavacchi/TFRecords#readme",
-  "devDependencies": {
-    "@types/node": "10.12.7",
-    "@types/jest": "^24.0.6",
-    "jest": "^24.1.0",
-    "prettier": "^1.16.4",
-    "ts-jest": "^24.0.0",
-    "tslint": "^5.12.1",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.3.3"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "files": [
-    "src/**/*"
-  ]
+    "name": "tfrecords",
+    "version": "1.0.1",
+    "description": "TensorFlow record (.tfrecord) API for Node.JS and Browsers",
+    "main": "src/index.js",
+    "dependencies": {
+        "buffer-reverse": "^1.0.1",
+        "crypto-js": "^3.1.9-1",
+        "google-protobuf": "^3.21.2",
+        "node-int64": "^0.4.0",
+        "shortid": "^2.2.16"
+    },
+    "types": "src/index.d.ts",
+    "scripts": {
+        "test": "jest --config jestconfig.json",
+        "build": "tsc --project tsconfig.build.json",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm test && npm run lint",
+        "preversion": "npm run lint",
+        "version": "npm run format && git add -A src",
+        "postversion": "git push && git push --tags"
+    },
+    "repository": "git://github.com/chebum/TFRecords.git",
+    "keywords": [
+        "TFRecords",
+        "TensorFlow"
+    ],
+    "author": "Jacopo Mangiavacchi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JacopoMangiavacchi/TFRecords/issues"
+    },
+    "homepage": "https://github.com/JacopoMangiavacchi/TFRecords#readme",
+    "devDependencies": {
+        "@types/jest": "^24.0.6",
+        "@types/node": "10.12.7",
+        "jest": "^24.1.0",
+        "prettier": "^1.16.4",
+        "ts-jest": "^24.0.0",
+        "tslint": "^5.12.1",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^5.1.3"
+    }
 }
